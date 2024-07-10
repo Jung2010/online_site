@@ -198,13 +198,12 @@
   }
 
   header nav {
+    display: flex;
     margin: 0;
     padding: 0px;
     position: sticky;
     width: 100%;
     background: #45a1ff;
-    padding-top: 20px;
-    padding-bottom: 20px;
     box-shadow: 0px 0px 10px 0px royalblue;
   }
 
@@ -220,5 +219,39 @@
   header nav a:hover {
     background: #45a1;
     border-color: #45a;
+  }
+
+  #loginBtn {
+    margin-left: auto;
+    cursor: pointer;
+  }
+
+  #loginDlg,#signUpDlg {
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px 0px black;
+    width: 500px;
+    height: 300px;
+    position: fixed;
+    top: 20%;
+  }
+  #signUpDlg {
+    height: 350px;
+  }
+  #loginDlg p input, #loginDlg p button,
+  #signUpDlg p input, #signUpDlg p button {
+    width: 100%;
+  }
+  #loginDlg h1 button,
+  #signUpDlg h1 button {
+    border: none;
+    color: gray;
+    float: right;
+    background: none;
+  }
+  #loginDlg h1 button:hover,
+  #signUpDlg h1 button:hover {
+    color: black;
   }
 }
