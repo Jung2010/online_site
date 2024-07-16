@@ -1,6 +1,8 @@
 <header>
   <banner>
-    <h1><?=$siteName?></h1>
+	<form>
+	  <input id='big_search'/>
+	</form>
   </banner>
   <nav>
     <a href='index.php'>HOME</a>
