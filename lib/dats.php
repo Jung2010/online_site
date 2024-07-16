@@ -1,2 +1,2 @@
 <?php
-$siteName = 'Tests';
+$siteName = 'SSIBA';
